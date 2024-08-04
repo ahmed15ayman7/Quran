@@ -18,7 +18,11 @@ export default {
       }
     },
     extend: {
+      screens: {
+        xs: "400px",
+      },
       colors: {
+        glassmorphism: "rgba(239, 239, 239, 0.60)",
         border: 'hsl(var(--border))',
         input: 'hsl(var(--input))',
         ring: 'hsl(var(--ring))',
